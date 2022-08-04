@@ -1,0 +1,2 @@
+windows.open_program(exe_path="C:\\ProgramData\\Luis Henrique\\GitHubDesktop\\GitHubDesktop.exe")
+keyboard.hotkey("ctrl+shift+p")
