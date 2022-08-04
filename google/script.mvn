@@ -1,1 +1,5 @@
 chrome.open(url="https://www.google.com")
+chrome.wait_load(browser=$browser)
+chrome.click_element(browser=$browser, selector="body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb")
+keyboard.type_text(text="g1 globo")
+keyboard.hotkey("enter")
