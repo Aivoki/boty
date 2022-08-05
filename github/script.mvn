@@ -1,2 +1,3 @@
 windows.open_program(exe_path="C:\\ProgramData\\Luis Henrique\\GitHubDesktop\\GitHubDesktop.exe")
+scree.wait_image(template_path="github.png")
 keyboard.hotkey("ctrl+shift+p")
