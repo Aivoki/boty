@@ -1,0 +1,5 @@
+chrome.open('http://docs.marvin.studio/user-guide/')
+chrome.wait_load($browser)
+console.warning('Marvin is working')
+prompt.alert('If you are seen this message, everything is good!!!!')
+# chrome.close($browser)
