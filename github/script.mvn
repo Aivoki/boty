@@ -1,3 +1,4 @@
 windows.open_program(exe_path="C:\\ProgramData\\Luis Henrique\\GitHubDesktop\\GitHubDesktop.exe")
-timer.wait(seconds=5)
+timer.wait_for(seconds=5)
+console.success(message="Espera de 5 segundos")
 keyboard.hotkey("ctrl+shift+p")
