@@ -1,0 +1,1 @@
+prompt.alert('This message is to tell you that something goes wrong')
