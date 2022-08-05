@@ -1,0 +1,5 @@
+user: Test-User
+pass: My-Pass-1234
+sendMail:
+- test@test.com
+- noreply@test.com
