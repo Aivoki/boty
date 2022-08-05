@@ -1,0 +1,6 @@
+helper.open_yaml_config("config.yaml")
+prompt.alert('User: ' + ($yaml)['user'])
+prompt.alert('Pass: ' + ($yaml)['pass'])
+
+for send_to in ($yaml)['sendMail']:
+    prompt.alert('Send To: ' + send_to)
